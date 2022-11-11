@@ -1,0 +1,6 @@
+[submodule "lib/statsd-client"]
+	path = lib/statsd-client
+	url = git@github.com:binary-com/statsd-client-cpp.git
+[submodule "lib/mt5-libs"]
+	path = lib/mt5-libs
+	url = git@github.com:regentmarkets/mt5-libs.git

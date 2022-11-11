@@ -1,0 +1,5 @@
+MACRO (MaybeGetFromEnv VARNAME)
+    IF (NOT ${VARNAME} AND DEFINED ENV{${VARNAME}})
+        SET(${VARNAME} $ENV{${VARNAME}})
+    ENDIF ()
+ENDMACRO ()
